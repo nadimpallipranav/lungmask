@@ -11,7 +11,7 @@ setuptools.setup(
     description="Package for automated lung segmentation in CT",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/JoHof/lungmask",
+    url="https://github.com/nadimpallipranav/lungmask",
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
@@ -33,5 +33,5 @@ setuptools.setup(
         "License :: OSI Approved :: GPLv3",
         "Operating System :: OS Independent"
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.5.2',
 )
